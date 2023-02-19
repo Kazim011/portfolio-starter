@@ -31,8 +31,15 @@ const Intro = () => {
         </div>
         <button className="button i-button">Hire me</button>
         <div className="i-icons">
-          <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
+          <a href="https://github.com/Kazim011" target="_blank">
+            <img src={Github} alt="" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/kaz%C4%B1m-nergiz-865481235/"
+            target="_blank"
+          >
+            <img src={LinkedIn} alt="" />
+          </a>
           <img src={Instagram} alt="" />
         </div>
       </div>
